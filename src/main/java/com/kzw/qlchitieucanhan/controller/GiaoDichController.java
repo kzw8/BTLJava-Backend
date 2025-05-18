@@ -107,7 +107,7 @@ public class GiaoDichController {
     }
 
     // Cập nhật
-    @PutMapping("/{id}")
+    @PutMapping("/them-giaodich/{id}")
     public GiaoDich update(
             @PathVariable Long id,
             @RequestBody GiaoDich updated
